@@ -1,0 +1,16 @@
+.caja {
+text-align: center;
+margin-top: 80px;
+margin-bottom: 25PX;
+    }
+    
+.caja-img {
+clip-path: polygon(50% 0%, 100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+width: 30%;
+height: 30%;
+margin-bottom: 55px;
+}
+    
+.caja-img:hover {
+filter: sepia(60%);
+}
